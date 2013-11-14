@@ -9,3 +9,4 @@ if num == user_num
 	puts "You are correct! You can see into the computer's brain!"
 else 
 	puts "You are incorrect. I am sorry. "
+end 
