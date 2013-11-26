@@ -139,6 +139,8 @@ def checkout(cart, coupons)
 end 
 
 cart = generateCart
+count = count_multiples(cart)
+cart = update_multiples(cart, count)
 coupons = generateCoups 
 
 puts checkout(cart, coupons)
